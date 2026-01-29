@@ -122,10 +122,34 @@
     </div>
 
     <div class="relative">
-      <div class="grid grid-cols-2 gap-4">
-        <img src="https://images.unsplash.com/photo-1581091012184-7c54f1b6b1a9" class="rounded-2xl object-cover h-48 w-full" />
-        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d" class="rounded-2xl object-cover h-48 w-full" />
-        <img src="https://images.unsplash.com/photo-1600607687644-c7c6d5a0e4c6" class="rounded-2xl object-cover h-48 w-full col-span-2" />
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+  <!-- Imagen grande -->
+  <div class="md:row-span-2">
+    <img
+      src="comercial1.jpg"
+      alt="Bodega industrial en Tijuana"
+      class="w-full h-full object-cover rounded-2xl"
+    />
+  </div>
+
+  <!-- Imagen superior derecha -->
+  <div>
+    <img
+      src="comercial2.jpg"
+      alt="Espacio logístico comercial"
+      class="w-full h-48 object-cover rounded-2xl"
+    />
+  </div>
+
+  <!-- Imagen inferior derecha -->
+  <div>
+    <img
+      src="comercial3.jpg"
+      alt="Terreno comercial"
+      class="w-full h-48 object-cover rounded-2xl"
+    />
+  </div>
+</div>
       </div>
       <div class="absolute inset-0 rounded-2xl bg-gradient-to-t from-black/40 to-transparent"></div>
     </div>
@@ -262,3 +286,4 @@ Mensaje: ${msg}`;
 </script>
 </body>
 </html>
+
